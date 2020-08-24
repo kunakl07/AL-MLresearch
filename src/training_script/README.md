@@ -15,21 +15,6 @@ The command to run the training and model building script.
 python model_build_and_training.py --classpath Path to the training directory --noofepochs No of epochs
 ```
 
-The command to build docker image
-```
-sudo docker build -t 'training_script' .
-```
-The command to run dockerfile
-```
-sudo docker run training -m preprocess_mag_scipy_Srkws.h5 -c tests/ 
-```
-
-1. classpath: The path to the spectrogram images
-2. noofepochs: The number of epochs for which the model is to be trained
-
-The command runs fine and thanks [Diego](https://github.com/jd-rs) for testing it out on your computer!
-
-
 model_predict.py: Would predict the call if present
 ```
 CLASSPATH
@@ -52,3 +37,24 @@ The ROC curve similar to this would be plotted
 <p align = "center">
 <img src = /images/CNN_final_vs_random.png>
 </p>
+
+The command to generate the results of the model using report.py
+
+```
+python report.py --modelpath Path to the model --testpath Path to the test directory
+
+
+The command to build docker image
+```
+sudo docker build -t 'results' .
+```
+The command to run dockerfile
+```
+sudo docker run results -m preprocess_mag_scipy_Srkws.h5 -c tests/ 
+```
+
+1. classpath: The path to the spectrogram images
+2. noofepochs: The number of epochs for which the model is to be trained
+
+The command runs fine and thanks [Diego](https://github.com/jd-rs) for testing it out on your computer!
+
