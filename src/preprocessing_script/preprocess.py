@@ -214,7 +214,7 @@ def plot_power_spectral_density(data,
     ax.set_axis_off()
     plt.savefig(os.path.join(
                 plot_path,
-                f_name + ".png"))
+                f_name[:-4] + ".png"))
     plt.close(fig)
 
 
