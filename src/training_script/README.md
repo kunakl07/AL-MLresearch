@@ -35,7 +35,7 @@ python statistics.py --modelpath Path to the model --testpath Path to the test d
 ```
 The ROC curve similar to this would be plotted
 <p align = "center">
-<img src = /images/CNN_final_vs_random.png>
+<img src = /assets/CNN_final_vs_random.png>
 </p>
 
 The command to generate the results of the model using report.py
