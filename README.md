@@ -122,9 +122,6 @@ My partner who is working on the front-end part
 
 Thanks to [OrcaCNN](https://github.com/axiom-data-science/OrcaCNN) and [Ketos](https://gitlab.meridian.cs.dal.ca/public_projects/ketos) for their thorough documentation and code which helped not only me develop preprocessing and training stage but also helped me develop scripts.
 
-## Contact
-
-If you want to contact me you can reach me at <kunal07@somaiya.edu>.
 
 ## License
 <!--- If you're not sure which open license to use see https://choosealicense.com/--->
