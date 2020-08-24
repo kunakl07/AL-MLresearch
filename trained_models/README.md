@@ -5,7 +5,6 @@ This directory consists of different trained models along with their respective 
 
  - [Trained CNN model of Melspectrograms generated after applying PCEN and Wavelet Denoising](https://drive.google.com/file/d/1jJ-E4M1Hwn7CQnZxxWlp-ejPGmdRlvPu/view?usp=sharing)
 
- - [Trained CNN model of Melspectrograms generated after applying PCEN](https://drive.google.com/file/d/1xUiNp_OUNRLR82sOa2wy8VwaI98-FUrj/view?usp=sharing)
 ## Here are the different trained models on different spectrograms whose example has been provided
 <table border="0">
  <tr>
@@ -14,21 +13,21 @@ This directory consists of different trained models along with their respective 
  <tr><tr>
     <td>Power_Spectral_Density_Spectrogram</td>
      <td><p align = "center">
-<img src = /images/psd_color_scipy.png>
+<img src = /assets/psd_color_scipy.png>
 </p>
 </td>
  </tr>
   <tr>
     <td>PSD_Grayscale_Spectrogram</td>
      <td><p align = "center">
-<img src = /images/grayscale_psd.png>
+<img src = /assets/grayscale_psd.png>
 </p>
 </td>
  </tr>
   <tr>
     <td>Mel_Spectrogram</td>
      <td><p align = "right">
-<img src = /images/melscale.png>
+<img src = /assets/melscale.png>
 </p>
 </td>
  </tr>
@@ -36,7 +35,7 @@ This directory consists of different trained models along with their respective 
    <tr>
     <td>Mel_Spectrogram after PCEN</td>
      <td><p align = "right">
-<img src = /images/pcen_melspectrogram.png>
+<img src = /assets/pcen_melspectrogram.png>
 </p>
 </td>
  </tr>
@@ -44,7 +43,7 @@ This directory consists of different trained models along with their respective 
    <tr>
     <td>Mel_Spectrogram after PCEN and Wavelet Denoising</td>
      <td><p align = "right">
-<img src = /images/wavelet_denoising_mel.png>
+<img src = /assets/wavelet_denoising_mel.png>
 </p>
 </td>
  </tr>
@@ -53,7 +52,7 @@ This directory consists of different trained models along with their respective 
    <tr>
     <td>Grayscale Mel_Spectrogram after PCEN and Wavelet Denoising</td>
      <td><p align = "right">
-<img src = /images/greyscale(2).png>
+<img src = /assets/greyscale(2).png>
 </p>
 </td>
  </tr>
