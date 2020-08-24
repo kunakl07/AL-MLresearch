@@ -57,7 +57,7 @@ These are the different types of spectrograms that the user could plot with the 
   <tr>
     <td>--power_spectral_density --grayscale</td>
      <td><p align = "center">
-<img src = /images/grayscale_psd.png>
+<img src = /assets/grayscale_psd.png>
 </p>
 </td>
  </tr>
