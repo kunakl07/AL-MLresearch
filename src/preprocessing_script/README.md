@@ -50,7 +50,7 @@ These are the different types of spectrograms that the user could plot with the 
  <tr>
     <td>--power_spectral_density</td>
      <td><p align = "center">
-<img src = /images/psd_color_scipy.png>
+<img src = /assets/psd_color_scipy.png>
 </p>
 </td>
  </tr>
@@ -64,7 +64,7 @@ These are the different types of spectrograms that the user could plot with the 
   <tr>
     <td>--melpectrogram</td>
      <td><p align = "right">
-<img src = /images/melscale.png>
+<img src = /assets/melscale.png>
 </p>
 </td>
  </tr>
@@ -72,7 +72,7 @@ These are the different types of spectrograms that the user could plot with the 
    <tr>
     <td>--melspectrogram --pcen</td>
      <td><p align = "right">
-<img src = /images/pcen_melspectrogram.png>
+<img src = /assets/pcen_melspectrogram.png>
 </p>
 </td>
  </tr>
@@ -80,7 +80,7 @@ These are the different types of spectrograms that the user could plot with the 
    <tr>
     <td>--melspectrogram --pcen --wavelet</td>
      <td><p align = "right">
-<img src = /images/wavelet_denoising_mel.png>
+<img src = /assets/wavelet_denoising_mel.png>
 </p>
 </td>
  </tr>
