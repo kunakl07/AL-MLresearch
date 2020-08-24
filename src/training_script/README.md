@@ -42,7 +42,7 @@ The command to generate the results of the model using report.py
 
 ```
 python report.py --modelpath Path to the model --testpath Path to the test directory
-
+```
 
 The command to build docker image
 ```
