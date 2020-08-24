@@ -120,7 +120,7 @@ My Mentors:
 My partner who is working on the front-end part
  * [@jorgediego](https://github.com/jd-rs)
 
-Thanks to [OrcaCNN](https://github.com/axiom-data-science/OrcaCNN) and [Ketos](https://gitlab.meridian.cs.dal.ca/public_projects/ketos) for helping with preprocessing, training and generating scripts
+Thanks to [OrcaCNN](https://github.com/axiom-data-science/OrcaCNN) and [Ketos](https://gitlab.meridian.cs.dal.ca/public_projects/ketos) for their thorough documentation and code which helped not only me develop preprocessing and training stage but also helped me develop scripts.
 
 ## Contact
 
