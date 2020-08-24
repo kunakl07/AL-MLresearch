@@ -1,3 +1,4 @@
+### Preprocessing audio files
 The preprocessing script is used convert the audio files into spectrograms containing calls and no calls. The spectrogram type is specified by the user
 The script takes audio files and tsv file specifying the parameters like the filename, start, duration_s, label as input and extracts audio based on the start_time and the duration specified by the user. With the help of tsv file given by the user another tsv file is generated that contains the start_time and duration of the background noise(i.e the area in which no call is present).
 With the help of these two .tsv files the audio is extracted and spectrograms specified by the user are generated based on these shorter audio files.
