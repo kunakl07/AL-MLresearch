@@ -65,8 +65,8 @@ The directory structure of our project looks like this:
 │   │   │   └── notebooks/preprocessing_and_training_using_Ketos/Preprocessing/README.md
 │   │   └── notebooks/preprocessing_and_training_using_Ketos/Training
 │   │       ├── notebooks/preprocessing_and_training_using_Ketos/Training/training_on_RNN_using_Ketos.ipynb
-│   │       ├── notebooks/preprocessing_and_training_using_Ketos/Training/Training_SRKWs_Ketos.ipynb
-│   │       └── notebooks/preprocessing_and_training_using_Ketos/Training/Train_K.py
+│   │       └── notebooks/preprocessing_and_training_using_Ketos/Training/Training_SRKWs_Ketos.ipynb
+│   │    
 │   └── notebooks/README.md
 ├── requirements.txt
 ├── src
