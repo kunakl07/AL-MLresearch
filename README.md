@@ -21,7 +21,7 @@ The implementation part consists of the stages:
 
 <p align = "center">
 <img src = 
-     /images/general_stage.png>
+     /assets/general_stage.png>
 </p>
 
 The directory structure of our project looks like this: 
