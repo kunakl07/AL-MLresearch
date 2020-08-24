@@ -81,14 +81,8 @@ The directory structure of our project looks like this:
 │       ├── src/training_script/model_build_and_training.py <- The model building and training script.
 │       ├── src/training_script/README.md
 │       └── src/training_script/requirements.txt <- Requirement file
-├── trained_models
-│   └── trained_models/README.md 
-└── unpolished_colab_notebooks
-    ├── unpolished_colab_notebooks/Grayscale_magspectrogram_scipy.ipynb
-    ├── unpolished_colab_notebooks/Grayscale_specs_mag.ipynb
-    ├── unpolished_colab_notebooks/Preprocess_grayscale.ipynb
-    ├── unpolished_colab_notebooks/README.md
-    └── unpolished_colab_notebooks/Sir_Val's_method_color.ipynb
+└── trained_models
+   └── trained_models/README.md <- Links to the different models that could be used
 
 
 ```
