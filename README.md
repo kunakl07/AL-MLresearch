@@ -1,6 +1,5 @@
-# Backend-of-Active-Learning
-These Repository contains the necessary code for the Backend of Active Learning
-
+# AL-MLresearch
+These Repository contains the necessary code, research work and steps for preprocessing and developing Orcacall detection model with some research focused on Active Learning. The part two of this repo which contains the Active learning tool and its deployment is located in [this repo](https://github.com/orcasound/orcaAL).
 Most of the data present in the world are unlabeled. Even though labeling data is an expensive, difficult, and slow process, it is an essential part of the Machine  Learning system. But what if a model could achieve a similar accuracy just by annotating a small amount of dataset. With the help of Active Learning, you can spend 10-20% of the time annotating data and still get the same performance.
 Therefore, we going to build an active learning tool that would label the vast amounts of unlabeled data coming in real-time streams from ocean observing systems.
 
@@ -88,14 +87,14 @@ The directory structure of our project looks like this:
 ```
 
 
-## Contributing to Backend-of-Active-Learning
+## Contributing to AL-MLresearch
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
-To contribute to Backend-of-Active-Learning, follow these steps:
+To contribute to AL-MLresearch, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
 3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <Backend-of-Active-Learning>/<location>`
+4. Push to the original branch: `git push origin <AL-MLresearch>/<location>`
 5. Create the pull request.
 
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
