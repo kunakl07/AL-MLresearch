@@ -48,7 +48,7 @@ class TestPreprocess(unittest.TestCase):
         # Testing the number of samples generated are as expected
         self.assertEqual(nb_extracted_audio_files, 7)
 
-        data_test, sr_test = librosa.core.load("Round2_test/round2_calls1.wav", res_type="kaiser_best")
+        data_test, sr_test = librosa.core.load("Round2_test/round2_calls1.wav", res_type="kaiser_best", sr=22050)
         data, sr = librosa.core.load("positive_extracted_audio/extracted_calls1.wav", res_type="kaiser_best", sr=22050)
 
         # Check the call produced and the sampling rate is same as the expected call
