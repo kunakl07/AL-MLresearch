@@ -11,7 +11,7 @@ An example to run this script is
 ```
 python3 active_learning.py -c test/calls/ -m modelpreprocess_mag_scipy_Srkws.h5
 ```
--c: Path to the spectrograms
--m: Path to the model
+ -  -c: Path to the spectrograms
+ - -m: Path to the model
 
 Note: Please make sure to select the same model for the same type of spectrogram. If you are using different model make sure to change the img_width, img_height
