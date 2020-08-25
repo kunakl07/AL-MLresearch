@@ -75,9 +75,9 @@ if __name__ == '__main__':
         required=True)
     parser.add_argument(
         '-c',
-        "--testpath",
+        "--datapath",
         type=str,
-        help='directory with PreProcessed images',
+        help='directory with Preprocessed images',
         required=True)
 
     args = parser.parse_args()
