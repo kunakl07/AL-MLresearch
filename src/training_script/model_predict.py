@@ -49,7 +49,7 @@ def predict(model_path, test_path):
         f_n = os.path.join(folder_path, f[i])
 
         os.makedirs("calls", exist_ok=True)
-        if classes[i][0] == 1:
+        if classes[i][0] == 0:
             shutil.copy(f_n, 'calls')
     logger.info(
         f"Detected {sum(len(files) for _, _, files in os.walk('calls'))} srkw calls")
