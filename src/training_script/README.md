@@ -56,5 +56,5 @@ sudo docker run results -m preprocess_mag_scipy_Srkws.h5 -c tests/
 1. classpath: The path to the spectrogram images
 2. noofepochs: The number of epochs for which the model is to be trained
 
-The command runs fine and thanks [Diego](https://github.com/jd-rs) for testing it out on your computer!
-
+Thanks [Diego](https://github.com/jd-rs) for testing these scripts out on your computer!
+Thanks [OrcaCNN](https://github.com/axiom-data-science/OrcaCNN) as their repository was extremely useful
