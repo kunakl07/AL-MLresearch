@@ -30,24 +30,17 @@ def plot_roc_curve(test_path,
     """
     ns_probs = randomlist
     lr_probs = predictions[:, 0]
-    # calculate scores
     ns_auc = roc_auc_score(true_classes, ns_probs)
     lr_auc = roc_auc_score(true_classes, lr_probs)
-    # summarize scores
     print('Random Classifier: ROC AUC=%.3f' % (ns_auc))
     print('CNN Classifier: ROC AUC=%.3f' % (lr_auc))
-    # calculate roc curves
     ns_fpr, ns_tpr, _ = roc_curve(true_classes, ns_probs)
     lr_fpr, lr_tpr, _ = roc_curve(true_classes, lr_probs)
-    # plot the roc curve for the model
     pyplot.plot(ns_fpr, ns_tpr, linestyle='--', label='Random_Classifier')
     pyplot.plot(lr_fpr, lr_tpr, marker='.', label='CNN_Classifier')
-    # axis labels
     pyplot.xlabel('False Positive Rate')
     pyplot.ylabel('True Positive Rate')
-    # show the legend
     pyplot.legend()
-    # show the plot
     pyplot.show()
 
 
