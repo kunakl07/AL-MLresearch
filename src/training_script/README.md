@@ -15,7 +15,7 @@ The command to run the training and model building script.
 python model_build_and_training.py --classpath Path to the training directory --noofepochs No of epochs
 ```
 
-model_predict.py: Would predict the call if present
+model_predict.py: This script is used to predict the calls if present.
 ```
 CLASSPATH
 ├── test_srkw
@@ -24,7 +24,7 @@ CLASSPATH
 ```
 The command to run the predict script is:
 ```
-python model_predict.py --modelpath Path to the model --testpath Path to the test directory
+python model_predict.py --modelpath Path to the model --testpath Path to the test directory that consists of spectrograms to be predicted
 ```
 
 statistics.py : Would plot the ROC curve
@@ -32,6 +32,14 @@ statistics.py : Would plot the ROC curve
 The command to plot the ROC curve is:
 ```
 python statistics.py --modelpath Path to the model --testpath Path to the test directory
+```
+Make sure to pass the test folders having following directory structure. Here calls and no_calls directories contains the spectrograms of both calls and no_calls respectively
+
+```
+CLASSPATH
+├── test_srkw
+    ├── calls
+    └── no_calls
 ```
 The ROC curve similar to this would be plotted
 <p align = "center">
