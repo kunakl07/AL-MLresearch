@@ -3,8 +3,11 @@ This directory consists of different trained models along with their respective 
 
  - [Trained CNN model of Grayscale Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1YCfQBGpP-XpZd204BpqDFhjz2HFX2ZDJ/view?usp=sharing)
 
+The image width and image height for Power_Spectral_Density_Spectrogram is 288, 432
+
  - [Trained CNN model of Melspectrograms generated after applying PCEN and Wavelet Denoising](https://drive.google.com/file/d/1jJ-E4M1Hwn7CQnZxxWlp-ejPGmdRlvPu/view?usp=sharing)
 
+The image width and height for Melspectrograms is 607, 617.
 ## Here are the different trained models on different spectrograms whose example has been provided
 <table border="0">
  <tr>
