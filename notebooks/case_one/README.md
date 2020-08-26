@@ -1,6 +1,6 @@
 # Case-1: Preprocessing without PCEN and Wavelet-Denoising
 
-These are the following steps that I took when creating this colab notebook.
+This directory contains following steps that I took when creating colab notebook for preprocessing and trainig.
    
 The data used for traning is the audio sound or calls made by Southern Resident Killer Whales(SRKW). This [SRKW data](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive) was provided by [Orcasound organisation](https://www.orcasound.net/).
 The data is divided into two parts
