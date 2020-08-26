@@ -2,7 +2,7 @@ The directory contains necessary commands for model building and training, predi
 model_build_and_training.py: Code for building the model and training
 The directory structure should be as follows:
 ```
-CLASSPATH
+Dataset
 ├── train_srkw
 │   ├── calls
 │   └── no_calls
@@ -14,6 +14,8 @@ The command to run the training and model building script.
 ```
 python model_build_and_training.py --classpath Path to the training directory --noofepochs No of epochs
 ```
+Please pass the Dataset directory as a training path which would contain the directory structure as shown above.
+
 
 model_predict.py: This script is used to predict the calls if present.
 ```
